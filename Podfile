@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'TexturePlayground' do
-pod 'Texture'
-pod 'SnapKit', '3.0'
+pod 'Texture', '2.6'
+pod 'SnapKit', '~> 3.2'
 end
 
 post_install do |installer|
